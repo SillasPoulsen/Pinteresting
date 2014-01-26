@@ -18,11 +18,11 @@ gem 'jbuilder', '~> 1.2'
 gem "bootstrap-sass", "~> 3.0.3.0"
 
 
-groupe :development, :test do
-gem 'sqlite3'
-end
+group :development, :test do
+  gem 'sqlite3'
+  end
 
-groupe :produktion do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
