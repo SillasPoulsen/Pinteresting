@@ -23,8 +23,8 @@ gem 'sqlite3'
 end
 
 groupe :produktion do
-gem 'pg'
-gem 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 
