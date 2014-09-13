@@ -3,9 +3,10 @@ Pinteresting::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" #creates about:path
   get "team" => "pages#team"
+
 
 
 'bin/rake db:migrate RAILS_ENV=development'
